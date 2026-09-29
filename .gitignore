@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated Excel files
+inventory_report.xlsx
+Dictionary_v3_matched_updated.xlsx
+
+# Private/local data
+inventories/*
+!inventories/.gitkeep
+Dictionary_v2_matched*.xlsx
+نام کالا کد کالا.xlsx
+
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
